@@ -37,8 +37,8 @@ export default function Home() {
               <Link to="/contato" className="btn-primary">
                 Solicitar Orçamento <ArrowRight size={18} />
               </Link>
-              <a href="tel:+5511999999999" className="btn-outline">
-                <Phone size={18} /> (11) 99999-9999
+              <a href="tel:+5511987654321" className="btn-outline">
+                <Phone size={18} /> (11) 98765-4321
               </a>
             </div>
             <ul className="hero-checks">

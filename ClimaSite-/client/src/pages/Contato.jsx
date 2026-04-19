@@ -45,7 +45,7 @@ export default function Contato() {
                 <div className="contact-icon"><Phone size={20} /></div>
                 <div>
                   <strong>Telefone / WhatsApp</strong>
-                  <a href="tel:+5511999999999">(11) 99999-9999</a>
+                  <a href="tel:+5511987654321">(11) 98765-4321</a>
                 </div>
               </div>
               <div className="contact-item">
@@ -72,7 +72,7 @@ export default function Contato() {
             </div>
 
             <a
-              href="https://wa.me/5511999999999?text=Olá! Gostaria de um orçamento."
+              href="https://wa.me/5511987654321?text=Olá! Gostaria de um orçamento."
               className="btn-primary whatsapp-contact-btn"
               target="_blank"
               rel="noopener noreferrer"
@@ -109,7 +109,7 @@ export default function Contato() {
               </div>
               <div className="form-group">
                 <label htmlFor="phone">Telefone</label>
-                <input id="phone" name="phone" type="tel" value={form.phone} onChange={handleChange} placeholder="(11) 99999-9999" />
+                <input id="phone" name="phone" type="tel" value={form.phone} onChange={handleChange} placeholder="(11) 98765-4321" />
               </div>
             </div>
             <div className="form-group">

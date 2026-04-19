@@ -33,7 +33,7 @@ export default function Footer() {
 
         <div className="footer-col">
           <h4>Contato</h4>
-          <a href="tel:+5511999999999"><Phone size={16} /> (11) 99999-9999</a>
+          <a href="tel:+5511987654321"><Phone size={16} /> (11) 98765-4321</a>
           <a href="mailto:contato@climafrio.com.br"><Mail size={16} /> contato@climafrio.com.br</a>
           <span><MapPin size={16} /> São Paulo, SP</span>
         </div>
@@ -46,7 +46,7 @@ export default function Footer() {
       </div>
 
       <a
-        href="https://wa.me/5511999999999?text=Olá! Gostaria de um orçamento."
+        href="https://wa.me/5511987654321?text=Olá! Gostaria de um orçamento."
         className="whatsapp-btn"
         target="_blank"
         rel="noopener noreferrer"
