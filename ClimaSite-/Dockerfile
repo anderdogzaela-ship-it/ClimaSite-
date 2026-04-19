@@ -16,4 +16,4 @@ COPY server/ .
 RUN npx prisma generate
 COPY --from=client-builder /app/client/dist ./public
 EXPOSE 3001
-CMD ["sh", "-c", "npx prisma migrate deploy && node prisma/seed.js; node src/index.js"]
+CMD ["sh", "-c", "npx prisma db push --accept-data-loss && node prisma/seed.js; node src/index.js"]
