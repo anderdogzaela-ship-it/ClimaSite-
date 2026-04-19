@@ -12,7 +12,7 @@ WORKDIR /app
 COPY server/package*.json ./
 RUN npm ci --omit=dev
 COPY server/ .
-RUN npx prisma generate
+RUN PRISMA_GENERATE_SKIP_AUTOINSTALL=true npx prisma generate --no-engine
 COPY --from=client-builder /app/client/dist ./public
 EXPOSE 3001
 CMD ["sh", "-c", "npx prisma migrate deploy && node prisma/seed.js; node src/index.js"]
